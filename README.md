@@ -5,6 +5,10 @@ This package provides methods for the analysis and segmentation of non-stationar
 `ruptures` focuses on ease of use by providing a well-documented and consistent interface.
 In addition, thanks to its modular structure, different algorithms and models can be connected and extended within this package.
 
+This is a modified version of ruptures, the original is here: https://pypi.org/project/ruptures/
+
+This alternative version make matplotlib an optional dependency, for those with such needs.
+
 ## Important links
 
 - Website (and documentation): [ctruong.perso.math.cnrs.fr/ruptures](http://ctruong.perso.math.cnrs.fr/ruptures "Link to documentation").
