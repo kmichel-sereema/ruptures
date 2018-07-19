@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ruptures',
+    name='ruptures-headless',
     version='1.0a1',
     packages=find_packages(exclude=['docs', 'tests*', 'images']),
     install_requires=['numpy', 'scipy'],
@@ -34,5 +34,9 @@ __ruptures__ is a Python library for offline change point detection. This packag
 An extensive documentation is available ctruong.perso.math.cnrs.fr/ruptures.
 
 This version requires Python 3 or later.
+
+This is a modified version of ruptures, the original is here: https://pypi.org/project/ruptures/
+
+This alternative version make matplotlib an optional dependency, for those with such needs.
 """
 )
