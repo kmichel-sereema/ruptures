@@ -22,10 +22,13 @@ This alternative version make matplotlib an optional dependency, for those with 
 # Dependencies and install
 
 `ruptures` is tested to work under Python >= 3.4.
-It is written in pure Python and depends on the following libraries: `numpy`, `scipy` and `matplotlib`.
+It is written in pure Python and depends on the following libraries: `numpy`, `scipy` and (optionally) `matplotlib`.
 
 - With **pip**:
-    > pip3 install ruptures
+    > pip3 install ruptures-headless
+
+- With **pip** and the matplotlib dependency:
+    > pip3 install ruptures-headless\[display\]
 
 - From source: download the archive and run from inside the **ruptures** directory:
     
