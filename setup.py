@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ruptures-headless',
-    version='1.0a1',
+    version='1.0a1.post2',
     packages=find_packages(exclude=['docs', 'tests*', 'images']),
     install_requires=['numpy', 'scipy'],
     extras_require={
